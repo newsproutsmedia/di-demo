@@ -1,0 +1,41 @@
+# spacing is VERY important here -- convention dictates 2 or 4 spaces
+com:
+  jms:
+    username: JMS Username
+    password: somepass
+    url: SomeUrl
+
+# three dashes is a file separator in YAML
+---
+# Set up German profile variables
+spring:
+    profiles: de
+
+com:
+  jms:
+    username: JMS Johan Von German Username
+    password: germanpass
+    url: GermanUrl
+
+---
+# Set up Spanish profile variables
+spring:
+    profiles: es
+
+com:
+  jms:
+    username: JMS Espanish username
+    password: spanishpass
+    url: SpanishUrl
+
+---
+# Set up English profile variables
+spring:
+    profiles: en
+
+com:
+  jms:
+    username: JMS English username
+    password: englishpass
+    url: EnglishUrl
+

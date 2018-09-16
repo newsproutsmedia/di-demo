@@ -1,0 +1,40 @@
+# this is a YAML comment
+
+name: John
+
+names: #Inline Comment
+    - John
+    - Paul
+    - Ringo
+
+pound_sign: "#"
+
+book:
+    author: Joe Buck
+    publisher: Random House
+
+
+# Booleans
+truth: yes
+
+another_truth: True
+
+more_true: true
+
+false: no #No, false, FALSE
+
+# String values
+
+string_val: "This is a quote"
+
+colon_string: "My courses: One, Two, Three"
+
+include_new_lines: |
+  asdf asf asdf
+  asdf asdf asdffda
+  asdf fdas asdf
+
+ignore_new_lines: >
+  this is
+  just one long
+  string
